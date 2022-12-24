@@ -19,6 +19,9 @@ use pocketmine\timings\Timings;
 
 class Session extends NetworkSession
 {
+    
+    final protected $protocol;
+    
     public function getProtocol(): ProtocolInterface
     {
         return $this->protocol;
